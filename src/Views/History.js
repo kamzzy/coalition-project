@@ -26,7 +26,7 @@ const History = () => {
 
     return (
         <div className='historyDiv'>
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg history-nav">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand" >
           <img src="https://res.cloudinary.com/wonderwoman/image/upload/v1680901860/images/logo-2_b8ls8g.png" alt="logo" width="30" height="24" className="d-inline-block align-text-top" /> </Link>

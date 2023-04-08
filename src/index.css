@@ -1,14 +1,5 @@
-/* @font-face {
-  font-family: 'latoblack_italic';
-  src: url('lato-blackitalic-webfont.woff2') format('woff2'),
-       url('lato-blackitalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-} */
-
 body {
- background-color: white;
+  background-color: white;
 }
 
 .mainDiv {
@@ -19,7 +10,6 @@ body {
 
 .historyDiv {
   height: 100vh;
-  /* overflow: hidden; */
   padding-bottom: 24px;
 }
 
@@ -29,10 +19,17 @@ body {
 
 .nav-item {
   margin-right: 20px;
-  /* font-family: 'latoblack_italic'; */
-  font-size: 12px;
-}
 
+}
+.nav-link {
+  color: #fff;
+  font-family: latoblack_italic;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
 .navbar-brand {
   margin-left: 20%;
 }
@@ -41,7 +38,11 @@ body {
   width: auto;
 }
 
-.historybody{
+.history-nav .nav-link {
+  color: #414f6b;
+}
+
+.historybody {
   background: url("https://res.cloudinary.com/wonderwoman/image/upload/v1680901899/images/Bg-2_nxokgc.png") no-repeat;
   background-size: cover;
   width: 100%;
@@ -65,3 +66,83 @@ body {
   padding: 0 20%;
 }
 
+.teamDiv {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.teamRow {
+  padding: 0 20%;
+  border: transparent;
+}
+
+.teamRow p {
+  padding: 6% 20%;
+}
+
+.teamList {
+  background-color: #414f6b;
+  list-style: none;
+  padding: 0 20%;
+}
+
+.teamList li {
+  display: inline;
+  padding: 0 1rem;
+  font-family: oswald;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.teamList .li-1 {
+  background-color: #b0b4be;
+  color: #414f6b;
+}
+
+.teamList .li-2 {
+  color: #b0b4be;
+  text-decoration: none;
+}
+
+.teamBody {
+  background: url("https://res.cloudinary.com/wonderwoman/image/upload/v1680901978/images/bg-3_ba0cl0.png") no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.teamSchedule {
+  padding: 0 20%;
+}
+
+.scheduleDiv {
+  background-color: #fff;
+  width: 50%;
+  padding: 2% 6%;
+  opacity: 70%;
+  margin: 37% 0 0 0
+}
+
+.teamSchedule h1 {
+  font-family: oswald;
+  font-size: 32px;
+  font-weight: bold;
+  color: 414f6b;
+}
+
+.teamSchedule span {
+  font-family: lato;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #414f6b;
+  padding: 1% 20%;
+  height: 62px;
+}
+
+footer p {
+  color: #63769d;
+  font-family: latoblack_italic;
+  font-size: 12px;
+  font-style: italic;
+}
