@@ -68,7 +68,6 @@ body {
 
 .teamDiv {
   height: 100vh;
-  overflow: hidden;
 }
 
 .teamRow {
@@ -107,7 +106,7 @@ body {
 .teamBody {
   background: url("https://res.cloudinary.com/wonderwoman/image/upload/v1680901978/images/bg-3_ba0cl0.png") no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 37rem;
 }
 
 .teamSchedule {
@@ -119,7 +118,7 @@ body {
   width: 50%;
   padding: 2% 6%;
   opacity: 70%;
-  margin: 37% 0 0 0
+  margin: 30% 0 0 0
 }
 
 .teamSchedule h1 {
